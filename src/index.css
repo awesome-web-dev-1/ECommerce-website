@@ -49,3 +49,30 @@
     opacity: 1;
     transition: opacity 0.3s;
 }
+
+
+/* Custom Swiper Pagination */
+.custom-pagination {
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    z-index: 10;
+  }
+  
+  .swiper-bullet {
+    width: 10px;
+    height: 10px;
+    background: rgba(255,255,255,0.5);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .swiper-bullet-active {
+    background: white;
+    width: 24px;
+  }

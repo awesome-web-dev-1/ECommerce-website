@@ -74,55 +74,120 @@ export const footerItems2 = [
 /* *********************
     Home pages
 ********************* */
-
 export const heroItems = [
     {
+      id: 1,
+      label: 'Woman’s Fashion',
+      path: '',
+      dropdown: [
+        { label: 'Dresses', path: '/womens-fashion/dresses' },
+        { label: 'Tops', path: '/womens-fashion/tops' },
+        { label: 'Shoes', path: '/womens-fashion/shoes' },
+        { label: 'Accessories', path: '/womens-fashion/accessories' }
+      ]
+    },
+    {
+      id: 2,
+      label: 'Men’s Fashion',
+      path: '',
+      dropdown: [
+        { label: 'Shirts', path: '/mens-fashion/shirts' },
+        { label: 'Pants', path: '/mens-fashion/pants' },
+        { label: 'Sneakers', path: '/mens-fashion/sneakers' },
+        { label: 'Watches', path: '/mens-fashion/watches' }
+      ]
+    },
+    {
+      id: 3,
+      label: 'Electronics',
+      path: '',
+      dropdown: [
+        { label: 'Smartphones', path: '/electronics/smartphones' },
+        { label: 'Laptops', path: '/electronics/laptops' },
+        { label: 'Headphones', path: '/electronics/headphones' },
+        { label: 'Cameras', path: '/electronics/cameras' }
+      ]
+    },
+    {
+      id: 4,
+      label: 'Home & Lifestyle',
+      path: '',
+      dropdown: [
+        { label: 'Furniture', path: '/home/furniture' },
+        { label: 'Decor', path: '/home/decor' },
+        { label: 'Kitchenware', path: '/home/kitchenware' },
+        { label: 'Bedding', path: '/home/bedding' }
+      ]
+    },
+    {
+      id: 5,
+      label: 'Medicine',
+      path: '/medicine'
+    },
+    {
+      id: 6,
+      label: 'Sports & Outdoor',
+      path: '',
+      dropdown: [
+        { label: 'Fitness', path: '/sports/fitness' },
+        { label: 'Camping', path: '/sports/camping' },
+        { label: 'Cycling', path: '/sports/cycling' },
+        { label: 'Team Sports', path: '/sports/team-sports' }
+      ]
+    },
+    {
+      id: 7,
+      label: 'Baby’s & Toys',
+      path: '/baby-toys'
+    },
+    {
+      id: 8,
+      label: 'Groceries & Pets',
+      path: '/groceries-pets'
+    },
+    {
+      id: 9,
+      label: 'Health & Beauty',
+      path: '/health-beauty'
+    }
+  ];
+
+
+  /* Hero banners */
+export const heroBaners = [
+    {
         id:1,
-        label:'Woman’s Fashion',
-        path:''
+        imgUrl:'/images/hero-banner-1.png',
+        subtitle:'NEW COLLECTION',
+        title:'Shop Smarter',
+        text:'Exclusive app deals on trending fashion.',
+        link:'Shop Now →'
     },
     {
         id:2,
-        label:'Men’s Fashion',
-        path:''
+        imgUrl:'/images/hero-banner-2.png',
+        subtitle:'SUMMER SALE',
+        title:'Your Perfect Fit',
+        text:'Loved by 10k+ fashion enthusiasts.',
+        link:'Shop Now →'
     },
     {
         id:3,
-        label:'Electronics',
-        path:''
+        imgUrl:'/images/hero-banner-3.png',
+        subtitle:'LIMITED TIME',
+        title:'Elevate Your Sound',
+        text:'Premium audio that comes alive.',
+        link:'Shop Now →'
     },
     {
         id:4,
-        label:'Home & Lifestyle',
-        path:''
-    },
-    {
-        id:5,
-        label:'Medicine',
-        path:''
-    },
-    {
-        id:6,
-        label:'Sports & Outdoor',
-        path:''
-    },
-    {
-        id:7,
-        label:'Baby’s & Toys',
-        path:''
-    },
-    {
-        id:8,
-        label:'Groceries & Pets',
-        path:''
-    },
-    {
-        id:9,
-        label:'Health & Beauty',
-        path:''
+        imgUrl:'/images/hero-banner-4.png',
+        subtitle:'JUST LAUNCHED',
+        title:'Next-Gen Power',
+        text:'Revolutionary camera system.',
+        link:'Shop Now →'
     },
 ]
-
 
 /* Featured section */
 export const featuredItems = [
