@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom'
 
 const SignUp = () => {
   return (
-    <section className='section'>
-      <div className="container grid md:grid-cols-2 items-center gap-[129px]">
+    <section className='py-[80px]'>
+      <div className="container grid md:grid-cols-2 items-center">
         <figure className="hidden md:block">
-          <img src="/images/" alt="banner" loading='lazy' />
+          <img src="/images/auth-banner.png" alt="banner" loading='lazy' />
         </figure>
 
         <form action="" className='max-w-[371px] mx-auto md:mx-0'>
