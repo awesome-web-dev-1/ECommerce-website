@@ -6,7 +6,7 @@ const SignUp = () => {
     <section className='section'>
       <div className="container grid md:grid-cols-2 items-center gap-[129px]">
         <figure className="hidden md:block">
-          <img src="/images/signup-banner.png" alt="banner" loading='lazy' />
+          <img src="/images/" alt="banner" loading='lazy' />
         </figure>
 
         <form action="" className='max-w-[371px] mx-auto md:mx-0'>

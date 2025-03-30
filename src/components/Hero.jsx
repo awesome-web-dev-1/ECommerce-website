@@ -92,13 +92,13 @@ const Hero = ({
                     className="w-full h-full bg-cover bg-center relative"
                     style={{ backgroundImage: `url(${imgUrl})` }}
                   >
-                    <div className="absolute left-4 right-4 md:left-16 top-1/2 -translate-y-1/2 max-w-[500px] bg-white/60 p-6 rounded-xl shadow-lg">
+                    <div className="absolute left-4 right-4 md:left-16 top-2/4 -translate-y-1/2 max-w-[500px] p-6 rounded-xl">
                       <p className="text-sm font-medium text-secondaryClr2 mb-2">{subtitle}</p>
-                      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3">{title}</h2>
-                      <p className="text-gray-700 mb-6 text-sm md:text-base">{text}</p>
+                      <h2 className="text-3xl sm:text-4xl md:text-6xl uppercase font-bold text-white mb-3">{title}</h2>
+                      <p className="text-gray-200 mb-6 text-sm md:text-base">{text}</p>
                       <Link
-                        to={path}
-                        className="inline-block bg-secondaryClr2 hover:bg-secondaryClr1 text-white px-6 py-2 rounded-full transition-all duration-300"
+                        to={''}
+                        className="inline-block text-white rounded-md hover:underline transition-all duration-300"
                       >
                         {link}
                       </Link>

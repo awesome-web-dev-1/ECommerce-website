@@ -75,13 +75,13 @@ const Categories = () => {
               slidesPerView: 6,
             },
             1280: {
-              slidesPerView: 8,
+              slidesPerView: 7,
             },
           }}
           className="categories-swiper"
         >
           {categories.map(({ id, Icon, name }) => (
-            <SwiperSlide key={id}>
+            <SwiperSlide key={id} className='pb-10'>
               <div className="flex flex-col items-center p-4 border border-gray-200 rounded-lg hover:border-secondaryClr2 transition-all cursor-pointer group">
                 <div className="p-4 bg-gray-100 rounded-full group-hover:bg-secondaryClr2 group-hover:text-white transition-all mb-3">
                   <Icon size={32} />
